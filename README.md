@@ -30,12 +30,12 @@ We are gonna change the *requirements.txt* for our needs. You can add new packag
 - torchaudio
 - transformers
 
+**For following sections**: You have to change *IMAGE_NAME* and *CONTAINER_NAME* for your preference. You should pick a name. It doesn't have to be the same name for both.
+
 ## Step 3:
 
 Run `docker build -t IMAGE_NAME .` command. It will create the image. It might take several minutes based on your packages. You can have a cup of coffee in that time.
 When it's done, you can check the image by running `docker images` command.
-
-**A quick note**: You have to change IMAGE_NAME and CONTAINER_NAME sections for your preference. You should pick a name. It doesn't have to be the same name.
 
 ## Step 4:
 
