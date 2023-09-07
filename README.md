@@ -9,7 +9,7 @@ Download [Docker](https://www.docker.com) from the official website based on you
 
 Clone this repository and put your desired files under the *src* folder; such as your csv files, python files for your project.
 
-We are gonna change the *requirements.txt* for our needs. You can add new packages, remove some of them or just leave it as it is. This one contains following Python packages:
+We are gonna change the *requirements.txt* for our needs. You can add new packages, remove some of them or just leave it as it is. This one contains following Python 3.10 packages:
 
 - numpy
 - pandas
@@ -29,6 +29,7 @@ We are gonna change the *requirements.txt* for our needs. You can add new packag
 - torchvision
 - torchaudio
 - transformers
+- nltk
 
 **For following sections**: You have to change *IMAGE_NAME* and *CONTAINER_NAME* for your preference. You should pick a name. It doesn't have to be the same name for both.
 
